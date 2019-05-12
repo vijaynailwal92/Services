@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textViewthreadCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="view_click"
+        android:id="@+id/start_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="startservice" />
+
+    <Button
+        android:onClick="view_click"
+        android:id="@+id/stop_servcie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stopservice" />
+
+    <Button
+        android:onClick="view_click"
+        android:id="@+id/buttonBindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bind" />
+
+    <Button
+        android:onClick="view_click"
+        android:id="@+id/buttonUnBindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="unbind" />
+
+    <Button
+        android:onClick="view_click"
+        android:id="@+id/buttonGetRandomNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getrandom_number" />
+
+</LinearLayout>
+
+
